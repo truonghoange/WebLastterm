@@ -334,3 +334,5 @@ service; there are no additional Gemini calls for evidence, reports or rewrite s
 Rewrites are local fact-preserving suggestions with placeholders. Saved review history
 is available through the local Career Workspace. PDF reports, an HTTP API,
 authentication and job queues remain future work.
+#   W e b L a s t t e r m  
+ 

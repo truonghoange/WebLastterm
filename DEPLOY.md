@@ -10,9 +10,16 @@ Upload toàn bộ file/thư mục trong ZIP này vào **root của repository**:
 - `cv_checker.py`
 - `constants.py`
 - `file_reader.py`
+- `backend/` (toàn bộ thư mục backend mới)
 - `requirements.txt`
 - `.streamlit/config.toml`
 - các file còn lại
+
+Backend đọc `GEMINI_API_KEY` và `GEMINI_MODEL` từ environment hoặc Streamlit secrets.
+Trong phần Secrets của Streamlit Community Cloud, đặt `GEMINI_API_KEY = "your-key"`
+và tùy chọn `GEMINI_MODEL = "gemini-2.5-flash"`. Không commit key hoặc đặt key trực tiếp
+trong source. Khi không có key, phân tích cơ bản vẫn hoạt động. Xem `README.md` và
+`.env.example` để cấu hình backend.
 
 Không upload nguyên file ZIP vào repo rồi để đó; Streamlit cần nhìn thấy `app.py` và `requirements.txt`.
 

@@ -1,0 +1,19 @@
+# Native widgets and shared frontend/theme.py use the same light palette.
+[theme]
+base = "light"
+primaryColor = "#4F46E5"
+backgroundColor = "#F7F9FC"
+secondaryBackgroundColor = "#F1F5F9"
+textColor = "#0F172A"
+borderColor = "#DEE5EE"
+showWidgetBorder = true
+baseRadius = "medium"
+buttonRadius = "medium"
+font = "sans serif"
+baseFontSize = 16
+
+[theme.sidebar]
+backgroundColor = "#111C30"
+secondaryBackgroundColor = "#1E2E48"
+textColor = "#D5DEEC"
+primaryColor = "#A5B4FC"
